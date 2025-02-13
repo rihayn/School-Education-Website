@@ -1,0 +1,19 @@
+.navButton {
+    height: auto;
+  width: 50%;
+  justify-content: flex-start;
+}
+.navButtonLink {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(38, 38, 38, 1);
+  padding:0 14px;
+}
+.button{
+    height: 58px;
+    border-right: 2px solid black;
+    background: rgba(255, 141, 77, 1);
+border-top-left-radius: 8px;
+border-bottom-left-radius: 8px;
+}

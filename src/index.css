@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header-container {
+  padding: 18px 50px;
+}
+.container {
+  padding: 0 165px;
+}
+body {
+  background: rgba(255, 245, 240, 1);
+  font-family: Outfit;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  background-color: transparent;
+}
+.navButtonLink {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(38, 38, 38, 1);
+}
+.navButtonlist {
+  border-left: 2px solid black;
+  padding: 14px;
+}
+.orange1 {
+  background-color: rgba(255, 174, 128, 1);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.orange2 {
+  background-color: rgba(255, 239, 229, 1);
+}
+.overview {
+  display: flex;
+  width: 100%;
+  column-gap: 60px;
+  .overviewLeft {
+    width: 50%;
+    .overviewLeftImg {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+  .overviewRight {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    .welcome {
+      width: 62%;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 33px;
+      color: rgba(38, 38, 38, 1);
+      border-bottom: 2px solid black;
+    }
+    h1 {
+      font-weight: 800;
+      font-size: 54px;
+      line-height: 70.2px;
+      color: rgba(38, 38, 38, 1);
+      margin-bottom: 30px;
+      span {
+        color: rgba(255, 141, 77, 1);
+      }
+      
+    }
+    .overviewDescription {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      color: rgba(51, 51, 51, 1);
+      margin-bottom: 60px;
+    }
+  }
+}
