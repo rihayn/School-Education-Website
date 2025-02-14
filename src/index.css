@@ -415,22 +415,26 @@ footer {
       .footerList {
         width: 66%;
         display: flex;
-        justify-content: space-between;
         margin-left: 20px;
-        ul {
+        column-gap:50px ;
+        .listContainer {
           display: flex;
-          flex-direction: column;
-          row-gap: 14px;
-          li {
-            margin-bottom: 10px;
-            .title {
-              font-weight: 600;
-            }
-            a {
-              font-weight: 500;
-              font-size: 20px;
-              line-height: 30px;
-              color: rgba(51, 51, 51, 1);
+          column-gap: 50px;
+          ul {
+            display: flex;
+            flex-direction: column;
+            row-gap: 14px;
+            li {
+              margin-bottom: 10px;
+              .title {
+                font-weight: 600;
+              }
+              a {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+                color: rgba(51, 51, 51, 1);
+              }
             }
           }
         }
