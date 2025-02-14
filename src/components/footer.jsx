@@ -1,11 +1,13 @@
-import { FooterInfo } from "./footerInfo";
-import { FooterList } from "./footerList";
+import { FooterTop } from "./footerTop";
+import { FooterBottom } from "./footerBottom";
 
 export function Footer() {
   return (
     <footer>
-      <FooterInfo />
-      <FooterList />
+      <div className="footer">
+        <FooterTop />
+        <FooterBottom />
+      </div>
     </footer>
   );
 }

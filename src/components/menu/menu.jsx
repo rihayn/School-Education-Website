@@ -4,7 +4,7 @@ import { NavBottomLink2 } from "../navBottomLink2";
 import { NavBottomLink3 } from "../navBottomLink3";
 import { NavBottomLink4 } from "../navBottomLink4";
 import { NavBottomLink5 } from "../navBottomLink5";
-import styles from "./menu.module.css"
+import styles from "./menu.module.css";
 
 export function Menu() {
   return (

@@ -1,34 +1,68 @@
-import { FooterLink } from "./footerLink";
-import { FooterLinkTitle } from "./footerLinkTitle";
 export function FooterList() {
   return (
-    <ul>
-      <li>
-        <FooterLinkTitle />
-
-        <FooterLink />
-      </li>
-      <li>
-        <FooterLinkTitle />
-
-        <FooterLink />
-      </li>
-      <li>
-        <FooterLinkTitle />
-
-        <FooterLink />
-      </li>
-      <li>
-        <FooterLinkTitle />
-
-        <FooterLink />
-      </li>
-      <li>
-        <FooterLinkTitle />
-
-        <FooterLink />
-      </li>
-    </ul>
-    
+    <div className="footerList">
+      <ul className="ul">
+        <li>
+          <a href="" className="title">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="">Features</a>
+        </li>
+        <li>
+          <a href="">Our Testimonials</a>
+        </li>
+        <li>
+          <a href="">FAQ</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="" className="title">
+            About Us
+          </a>
+        </li>
+        <li>
+          <a href="">Our Mission</a>
+        </li>
+        <li>
+          <a href="">Our Vission</a>
+        </li>
+        <li>
+          <a href="">Awards and Recognitions</a>
+        </li>
+        <li>
+          <a href="">History</a>
+        </li>
+        <li>
+          <a href="">Teachers</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="" className="title">
+            Academics
+          </a>
+        </li>
+        <li>
+          <a href="">Special Features</a>
+        </li>
+        <li>
+          <a href="">Gallery</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="" className="title">Contact Us</a>
+        </li>
+        <li>
+          <a href="">Information</a>
+        </li>
+        <li>
+          <a href="">Map & Direction</a>
+        </li>
+      </ul>
+    </div>
   );
 }

@@ -1,5 +1,5 @@
-import { BenefitsBottom } from "./benefitsBottom";
-import { BenefitsTop } from "./benefitsTop";
+import { BenefitsBottom } from "../components/benefitsBottom";
+import { BenefitsTop } from "../components/benefitsTop";
 
 export function Benefits() {
   return (
