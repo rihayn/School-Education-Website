@@ -1,9 +1,10 @@
-import {Benefits} from "./components/benefits";
+import { Benefits } from "./components/benefits";
 import { Footer } from "./components/footer";
 import { Header } from "./components/Header";
 import { Nav } from "./components/nav";
 import { Testimonials } from "./components/testimonials";
-import {Explore} from "./components/explore";
+import { Explore } from "./components/explore";
+import "./components/responsive.css";
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
       <Header />
       <main>
         <Benefits />
-        <Testimonials/>
-        <Explore/>
+        <Testimonials />
+        <Explore />
       </main>
       <Footer />
     </>

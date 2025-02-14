@@ -1,5 +1,65 @@
-.menu{
+.box {
+  width: 50%;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.shortcut {
+    width: 100%;
     display: flex;
+    justify-content: flex-end;
+    display: none;
+
+    .MenuShortcut {
+      width: 50%;
+      height: 58px;
+      background-color: rgba(255, 239, 229, 1);
+      border-top-right-radius:8px ;
+      border-bottom-right-radius:8px ;
+      border-left: 2px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    display: none;
+
+      img{
+        width: 30%;
+        
+      }
+
+    }
+  }
+
+@media only screen and (max-width: 995px) {
+  .box {
     width: 50%;
-justify-content: flex-end;
+  }
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    display: none;
+  }
+
+  .shortcut {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+    .MenuShortcut {
+      width: 50%;
+      height: 58px;
+      background-color: rgba(255, 239, 229, 1);
+      border-top-right-radius:8px ;
+      border-bottom-right-radius:8px ;
+      border-left: 2px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img{
+        width: 30%;
+      }
+
+    }
+  }
 }

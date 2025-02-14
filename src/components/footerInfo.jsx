@@ -6,11 +6,14 @@ import icon2 from "../assets/images/Icon (2).svg";
 export function FooterInfo() {
   return (
     <div className="footerInfo">
+      <div className="footerInfoTop">
       <img src={logo} alt="" />
       <p>
         We believe in the power of play to foster creativity, problem-solving
         skills, and imagination.
       </p>
+      </div>
+     
       <div className="infoBoxes">
         <img src={icon} alt="" />
         <h5>hello@littlelearners.com</h5>

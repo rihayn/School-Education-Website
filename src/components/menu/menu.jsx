@@ -7,8 +7,11 @@ import { NavBottomLink5 } from "../navBottomLink5";
 import styles from "./menu.module.css";
 
 export function Menu() {
+   const imgurl='https://www.svgrepo.com/show/506795/burger-menu-right.svg'
   return (
-    <ul className={styles.menu}>
+   
+    <div className={styles.box}>
+       <ul className={styles.menu}>
       <li className="navButtonlist orange2">
         <NavBottomLink />
       </li>
@@ -28,5 +31,14 @@ export function Menu() {
         <NavBottomLink5 />
       </li>
     </ul>
+        <div className={styles.shortcut}>
+    <div className={styles.MenuShortcut}>
+      <img src={imgurl} alt="" />
+    </div>
+    </div>
+    
+
+    </div>
+   
   );
 }

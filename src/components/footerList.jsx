@@ -1,6 +1,7 @@
 export function FooterList() {
   return (
     <div className="footerList">
+      <div className="listContainer">
       <ul className="ul">
         <li>
           <a href="" className="title">
@@ -39,7 +40,9 @@ export function FooterList() {
           <a href="">Teachers</a>
         </li>
       </ul>
-      <ul>
+      </div>
+     <div className="listContainer">
+     <ul>
         <li>
           <a href="" className="title">
             Academics
@@ -63,6 +66,8 @@ export function FooterList() {
           <a href="">Map & Direction</a>
         </li>
       </ul>
+     </div>
+      
     </div>
   );
 }
