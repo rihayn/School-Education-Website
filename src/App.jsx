@@ -1,7 +1,9 @@
-import { Feature } from "./components/feature";
+import {Benefits} from "./components/benefits";
 import { Footer } from "./components/footer";
 import { Header } from "./components/Header";
 import { Nav } from "./components/nav";
+import { Testimonials } from "./components/testimonials";
+import {Explore} from "./components/explore";
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
 
       <Header />
       <main>
-        <Feature />
+        <Benefits />
+        <Testimonials/>
+        <Explore/>
       </main>
       <Footer />
     </>
